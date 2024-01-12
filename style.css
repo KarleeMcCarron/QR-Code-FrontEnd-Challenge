@@ -21,7 +21,8 @@ h3{
 .background {
     background-color: rgb(216, 226, 238);
     height: 100vh;
-    width: 100%;
+    display: flex;
+    align-items: center;
 }
 .qr-code {
     width: 300px;
@@ -32,8 +33,9 @@ h3{
     padding: 15px;
     margin: 0 auto;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 5%);
-    position: relative;
-    top: 100px;
+    
+    
+    
     
     
 }
